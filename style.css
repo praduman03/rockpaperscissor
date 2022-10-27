@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    background-image: url(./assets/bg.png);
+    font-family: 'Poppins', sans-serif;
+   
+}
+.you{
+    height: 460px;
+    width: 500px;
+    border: 2px solid gold;
+    color: white;
+    text-align: center;
+    
+} 
+h3{
+    margin-top: 1px;
+    font-size: 27px;
+}
+#def{
+    width: 460px;
+    height: 200px;
+
+}
+.efg{
+    width: 460px;
+    height: 276px;
+}
+#logos{
+     
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#you-paper-img{
+    display: none;
+}
+#you-rock-img{
+    display: none;
+}
+#you-scissors-img{
+    display: none;
+}
+#comp-scissors-img{
+    display: none;
+}
+#comp-paper-img{
+    display: none;
+}
+#comp-rock-img{
+    display: none;
+}
+
+
+
+.logos-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.abc{
+    height: 290px;
+    width: 460px;
+    
+}
+.section {
+    width: 1525px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#verses{
+    height: 500px;
+}
+#score{
+    color: aliceblue;
+    font-size: 75px;
+    text-align: center;
+}
+
+#heading1{
+    margin-top: -2px;
+    color: aliceblue;
+    font-size: 70px;
+    text-align: center;
+    color: rgb(90, 37, 192);
+
+}
+
+#heading2{
+    color: aliceblue;
+    font-size: 47px;
+    padding: 6px;
+}
+
+
+.playthegame{
+    margin-top: 370px;
+    display: flex;
+    flex-direction: row;
+}
+.outer-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 571px;
+}
+
+
+#play-pause{
+    height: 148px;
+    width: 140px;
+}
+
+.play-again{
+    color: aliceblue;
+}
+.overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000ee;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#result{
+    font-size: 42px;
+    letter-spacing: 3px;
+    margin: 15px 0; 
+    color: aliceblue;
+}
+
+.active{
+    display: flex;
+}
+
+#player{
+    color: #01d5fa;
+}
+#reset-game{
+    padding: 10px;
+    background-color: #fab201;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+    color: white;
+}
